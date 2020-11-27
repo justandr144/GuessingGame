@@ -51,27 +51,27 @@ namespace GuessingGame
                 outputLabel.Text = "That's Correct!";
             }
 
-            if (awayAbsolute > 50)
+            if (awayAbsolute >= 50)
             {
                 outputLabel.Text += $"\nFreezing!";
             }
-            else if (awayAbsolute > 25)
+            else if (awayAbsolute >= 25)
             {
                 outputLabel.Text += $"\nCold!";
             }
-            else if (awayAbsolute > 15)
+            else if (awayAbsolute >= 15)
             {
                 outputLabel.Text += $"\nCool!";
             }
-            else if (awayAbsolute > 10)
+            else if (awayAbsolute >= 10)
             {
                 outputLabel.Text += $"\nWarm!";
             }
-            else if (awayAbsolute > 5)
+            else if (awayAbsolute >= 5)
             {
                 outputLabel.Text += $"\nHot!";
             }
-            else if (awayAbsolute > 0)
+            else if (awayAbsolute >= 0)
             {
                 outputLabel.Text += $"\nBoiling!";
             }
