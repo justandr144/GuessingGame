@@ -71,7 +71,7 @@ namespace GuessingGame
             {
                 outputLabel.Text += $"\nHot!";
             }
-            else if (awayAbsolute >= 0)
+            else if (awayAbsolute >= 1)
             {
                 outputLabel.Text += $"\nBoiling!";
             }
