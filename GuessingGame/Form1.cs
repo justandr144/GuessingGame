@@ -26,7 +26,7 @@ namespace GuessingGame
 
         private void GuessButton_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 guessNumber = Convert.ToInt32(numberText.Text);
             }
@@ -56,24 +56,24 @@ namespace GuessingGame
                 outputLabel.Text += $"\nFreezing!";
             }
             else if (awayAbsolute > 25)
-            {                
-                    outputLabel.Text += $"\nCold!";              
+            {
+                outputLabel.Text += $"\nCold!";
             }
             else if (awayAbsolute > 15)
-            {               
-                    outputLabel.Text += $"\nCool!";               
+            {
+                outputLabel.Text += $"\nCool!";
             }
             else if (awayAbsolute > 10)
-            {                
-                    outputLabel.Text += $"\nWarm!";                
+            {
+                outputLabel.Text += $"\nWarm!";
             }
             else if (awayAbsolute > 5)
-            {                
-                    outputLabel.Text += $"\nHot!";                
+            {
+                outputLabel.Text += $"\nHot!";
             }
             else if (awayAbsolute > 0)
             {
-                    outputLabel.Text += $"\nBoiling!";
+                outputLabel.Text += $"\nBoiling!";
             }
             else
             {
